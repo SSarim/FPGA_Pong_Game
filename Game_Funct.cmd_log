@@ -1,0 +1,124 @@
+xst -intstyle ise -ifn "/home/student1/sshahwar/Desktop/Pong_Game_Coe758/Pong_Game/Game_Funct.xst" -ofn "/home/student1/sshahwar/Desktop/Pong_Game_Coe758/Pong_Game/Game_Funct.syr" 
+xst -intstyle ise -ifn "/home/student1/sshahwar/Desktop/Pong_Game_Coe758/Pong_Game/Game_Funct.xst" -ofn "/home/student1/sshahwar/Desktop/Pong_Game_Coe758/Pong_Game/Game_Funct.syr" 
+xst -intstyle ise -ifn "/home/student1/sshahwar/Desktop/Pong_Game_Coe758/Pong_Game/Game_Funct.xst" -ofn "/home/student1/sshahwar/Desktop/Pong_Game_Coe758/Pong_Game/Game_Funct.syr" 
+xst -intstyle ise -ifn "/home/student1/sshahwar/Desktop/Pong_Game_Coe758/Pong_Game/Game_Funct.xst" -ofn "/home/student1/sshahwar/Desktop/Pong_Game_Coe758/Pong_Game/Game_Funct.syr" 
+xst -intstyle ise -ifn "/home/student1/sshahwar/Desktop/Pong_Game_Coe758/Pong_Game/Game_Funct.xst" -ofn "/home/student1/sshahwar/Desktop/Pong_Game_Coe758/Pong_Game/Game_Funct.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc ucfgame.ucf -p xc3s500e-fg320-5 Game_Funct.ngc Game_Funct.ngd  
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc ucfgame.ucf -p xc3s500e-fg320-5 Game_Funct.ngc Game_Funct.ngd  
+map -intstyle ise -p xc3s500e-fg320-5 -cm area -ir off -pr off -c 100 -o Game_Funct_map.ncd Game_Funct.ngd Game_Funct.pcf 
+par -w -intstyle ise -ol high -t 1 Game_Funct_map.ncd Game_Funct.ncd Game_Funct.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml Game_Funct.twx Game_Funct.ncd -o Game_Funct.twr Game_Funct.pcf -ucf ucfgame.ucf 
+xst -intstyle ise -ifn "/home/student1/sshahwar/Desktop/Pong_Game_Coe758/Pong_Game/Game_Funct.xst" -ofn "/home/student1/sshahwar/Desktop/Pong_Game_Coe758/Pong_Game/Game_Funct.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc ucfgame.ucf -p xc3s500e-fg320-5 Game_Funct.ngc Game_Funct.ngd  
+map -intstyle ise -p xc3s500e-fg320-5 -cm area -ir off -pr off -c 100 -o Game_Funct_map.ncd Game_Funct.ngd Game_Funct.pcf 
+par -w -intstyle ise -ol high -t 1 Game_Funct_map.ncd Game_Funct.ncd Game_Funct.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml Game_Funct.twx Game_Funct.ncd -o Game_Funct.twr Game_Funct.pcf -ucf ucfgame.ucf 
+bitgen -intstyle ise -f Game_Funct.ut Game_Funct.ncd 
+xst -intstyle ise -ifn "/home/student1/sshahwar/Desktop/Pong_Game_Coe758/Pong_Game/Game_Funct.xst" -ofn "/home/student1/sshahwar/Desktop/Pong_Game_Coe758/Pong_Game/Game_Funct.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc ucfgame.ucf -p xc3s500e-fg320-5 Game_Funct.ngc Game_Funct.ngd  
+map -intstyle ise -p xc3s500e-fg320-5 -cm area -ir off -pr off -c 100 -o Game_Funct_map.ncd Game_Funct.ngd Game_Funct.pcf 
+par -w -intstyle ise -ol high -t 1 Game_Funct_map.ncd Game_Funct.ncd Game_Funct.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml Game_Funct.twx Game_Funct.ncd -o Game_Funct.twr Game_Funct.pcf -ucf ucfgame.ucf 
+xst -intstyle ise -ifn "/home/student1/sshahwar/Desktop/Pong_Game_Coe758/Pong_Game/Game_Funct.xst" -ofn "/home/student1/sshahwar/Desktop/Pong_Game_Coe758/Pong_Game/Game_Funct.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc ucfgame.ucf -p xc3s500e-fg320-5 Game_Funct.ngc Game_Funct.ngd  
+map -intstyle ise -p xc3s500e-fg320-5 -cm area -ir off -pr off -c 100 -o Game_Funct_map.ncd Game_Funct.ngd Game_Funct.pcf 
+par -w -intstyle ise -ol high -t 1 Game_Funct_map.ncd Game_Funct.ncd Game_Funct.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml Game_Funct.twx Game_Funct.ncd -o Game_Funct.twr Game_Funct.pcf -ucf ucfgame.ucf 
+bitgen -intstyle ise -f Game_Funct.ut Game_Funct.ncd 
+xst -intstyle ise -ifn "/home/student1/sshahwar/Desktop/Pong_Game_Coe758/Pong_Game/Game_Funct.xst" -ofn "/home/student1/sshahwar/Desktop/Pong_Game_Coe758/Pong_Game/Game_Funct.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc ucfgame.ucf -p xc3s500e-fg320-5 Game_Funct.ngc Game_Funct.ngd  
+map -intstyle ise -p xc3s500e-fg320-5 -cm area -ir off -pr off -c 100 -o Game_Funct_map.ncd Game_Funct.ngd Game_Funct.pcf 
+par -w -intstyle ise -ol high -t 1 Game_Funct_map.ncd Game_Funct.ncd Game_Funct.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml Game_Funct.twx Game_Funct.ncd -o Game_Funct.twr Game_Funct.pcf -ucf ucfgame.ucf 
+bitgen -intstyle ise -f Game_Funct.ut Game_Funct.ncd 
+xst -intstyle ise -ifn "/home/student1/sshahwar/Desktop/Pong_Game_Coe758/Pong_Game/Game_Funct.xst" -ofn "/home/student1/sshahwar/Desktop/Pong_Game_Coe758/Pong_Game/Game_Funct.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc ucfgame.ucf -p xc3s500e-fg320-5 Game_Funct.ngc Game_Funct.ngd  
+map -intstyle ise -p xc3s500e-fg320-5 -cm area -ir off -pr off -c 100 -o Game_Funct_map.ncd Game_Funct.ngd Game_Funct.pcf 
+par -w -intstyle ise -ol high -t 1 Game_Funct_map.ncd Game_Funct.ncd Game_Funct.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml Game_Funct.twx Game_Funct.ncd -o Game_Funct.twr Game_Funct.pcf -ucf ucfgame.ucf 
+bitgen -intstyle ise -f Game_Funct.ut Game_Funct.ncd 
+xst -intstyle ise -ifn "/home/student1/sshahwar/Desktop/Pong_Game_Coe758/Pong_Game/Game_Funct.xst" -ofn "/home/student1/sshahwar/Desktop/Pong_Game_Coe758/Pong_Game/Game_Funct.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc ucfgame.ucf -p xc3s500e-fg320-5 Game_Funct.ngc Game_Funct.ngd  
+map -intstyle ise -p xc3s500e-fg320-5 -cm area -ir off -pr off -c 100 -o Game_Funct_map.ncd Game_Funct.ngd Game_Funct.pcf 
+par -w -intstyle ise -ol high -t 1 Game_Funct_map.ncd Game_Funct.ncd Game_Funct.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml Game_Funct.twx Game_Funct.ncd -o Game_Funct.twr Game_Funct.pcf -ucf ucfgame.ucf 
+bitgen -intstyle ise -f Game_Funct.ut Game_Funct.ncd 
+xst -intstyle ise -ifn "/home/student1/sshahwar/Desktop/Pong_Game_Coe758/Pong_Game/Game_Funct.xst" -ofn "/home/student1/sshahwar/Desktop/Pong_Game_Coe758/Pong_Game/Game_Funct.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc ucfgame.ucf -p xc3s500e-fg320-5 Game_Funct.ngc Game_Funct.ngd  
+map -intstyle ise -p xc3s500e-fg320-5 -cm area -ir off -pr off -c 100 -o Game_Funct_map.ncd Game_Funct.ngd Game_Funct.pcf 
+par -w -intstyle ise -ol high -t 1 Game_Funct_map.ncd Game_Funct.ncd Game_Funct.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml Game_Funct.twx Game_Funct.ncd -o Game_Funct.twr Game_Funct.pcf -ucf ucfgame.ucf 
+bitgen -intstyle ise -f Game_Funct.ut Game_Funct.ncd 
+xst -intstyle ise -ifn "/home/student1/sshahwar/Desktop/Pong_Game_Coe758/Pong_Game/Game_Funct.xst" -ofn "/home/student1/sshahwar/Desktop/Pong_Game_Coe758/Pong_Game/Game_Funct.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc ucfgame.ucf -p xc3s500e-fg320-5 Game_Funct.ngc Game_Funct.ngd  
+map -intstyle ise -p xc3s500e-fg320-5 -cm area -ir off -pr off -c 100 -o Game_Funct_map.ncd Game_Funct.ngd Game_Funct.pcf 
+par -w -intstyle ise -ol high -t 1 Game_Funct_map.ncd Game_Funct.ncd Game_Funct.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml Game_Funct.twx Game_Funct.ncd -o Game_Funct.twr Game_Funct.pcf -ucf ucfgame.ucf 
+bitgen -intstyle ise -f Game_Funct.ut Game_Funct.ncd 
+xst -intstyle ise -ifn "/home/student1/sshahwar/Desktop/Pong_Game_Coe758/Pong_Game/Game_Funct.xst" -ofn "/home/student1/sshahwar/Desktop/Pong_Game_Coe758/Pong_Game/Game_Funct.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc ucfgame.ucf -p xc3s500e-fg320-5 Game_Funct.ngc Game_Funct.ngd  
+map -intstyle ise -p xc3s500e-fg320-5 -cm area -ir off -pr off -c 100 -o Game_Funct_map.ncd Game_Funct.ngd Game_Funct.pcf 
+par -w -intstyle ise -ol high -t 1 Game_Funct_map.ncd Game_Funct.ncd Game_Funct.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml Game_Funct.twx Game_Funct.ncd -o Game_Funct.twr Game_Funct.pcf -ucf ucfgame.ucf 
+bitgen -intstyle ise -f Game_Funct.ut Game_Funct.ncd 
+xst -intstyle ise -ifn "/home/student1/sshahwar/Desktop/Pong_Game_Coe758/Pong_Game/Game_Funct.xst" -ofn "/home/student1/sshahwar/Desktop/Pong_Game_Coe758/Pong_Game/Game_Funct.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc ucfgame.ucf -p xc3s500e-fg320-5 Game_Funct.ngc Game_Funct.ngd  
+map -intstyle ise -p xc3s500e-fg320-5 -cm area -ir off -pr off -c 100 -o Game_Funct_map.ncd Game_Funct.ngd Game_Funct.pcf 
+par -w -intstyle ise -ol high -t 1 Game_Funct_map.ncd Game_Funct.ncd Game_Funct.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml Game_Funct.twx Game_Funct.ncd -o Game_Funct.twr Game_Funct.pcf -ucf ucfgame.ucf 
+bitgen -intstyle ise -f Game_Funct.ut Game_Funct.ncd 
+xst -intstyle ise -ifn "/home/student1/sshahwar/Desktop/Pong_Game_Coe758/Pong_Game/Game_Funct.xst" -ofn "/home/student1/sshahwar/Desktop/Pong_Game_Coe758/Pong_Game/Game_Funct.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc ucfgame.ucf -p xc3s500e-fg320-5 Game_Funct.ngc Game_Funct.ngd  
+map -intstyle ise -p xc3s500e-fg320-5 -cm area -ir off -pr off -c 100 -o Game_Funct_map.ncd Game_Funct.ngd Game_Funct.pcf 
+par -w -intstyle ise -ol high -t 1 Game_Funct_map.ncd Game_Funct.ncd Game_Funct.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml Game_Funct.twx Game_Funct.ncd -o Game_Funct.twr Game_Funct.pcf -ucf ucfgame.ucf 
+bitgen -intstyle ise -f Game_Funct.ut Game_Funct.ncd 
+xst -intstyle ise -ifn "/home/student1/sshahwar/Desktop/Pong_Game_Coe758/Pong_Game/Game_Funct.xst" -ofn "/home/student1/sshahwar/Desktop/Pong_Game_Coe758/Pong_Game/Game_Funct.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc ucfgame.ucf -p xc3s500e-fg320-5 Game_Funct.ngc Game_Funct.ngd  
+map -intstyle ise -p xc3s500e-fg320-5 -cm area -ir off -pr off -c 100 -o Game_Funct_map.ncd Game_Funct.ngd Game_Funct.pcf 
+par -w -intstyle ise -ol high -t 1 Game_Funct_map.ncd Game_Funct.ncd Game_Funct.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml Game_Funct.twx Game_Funct.ncd -o Game_Funct.twr Game_Funct.pcf -ucf ucfgame.ucf 
+bitgen -intstyle ise -f Game_Funct.ut Game_Funct.ncd 
+xst -intstyle ise -ifn "/home/student1/sshahwar/Desktop/Pong_Game_Coe758/Pong_Game/Game_Funct.xst" -ofn "/home/student1/sshahwar/Desktop/Pong_Game_Coe758/Pong_Game/Game_Funct.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc ucfgame.ucf -p xc3s500e-fg320-5 Game_Funct.ngc Game_Funct.ngd  
+map -intstyle ise -p xc3s500e-fg320-5 -cm area -ir off -pr off -c 100 -o Game_Funct_map.ncd Game_Funct.ngd Game_Funct.pcf 
+par -w -intstyle ise -ol high -t 1 Game_Funct_map.ncd Game_Funct.ncd Game_Funct.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml Game_Funct.twx Game_Funct.ncd -o Game_Funct.twr Game_Funct.pcf -ucf ucfgame.ucf 
+bitgen -intstyle ise -f Game_Funct.ut Game_Funct.ncd 
+xst -intstyle ise -ifn "/home/student1/sshahwar/Desktop/Pong_Game_Coe758/Pong_Game/Game_Funct.xst" -ofn "/home/student1/sshahwar/Desktop/Pong_Game_Coe758/Pong_Game/Game_Funct.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc ucfgame.ucf -p xc3s500e-fg320-5 Game_Funct.ngc Game_Funct.ngd  
+map -intstyle ise -p xc3s500e-fg320-5 -cm area -ir off -pr off -c 100 -o Game_Funct_map.ncd Game_Funct.ngd Game_Funct.pcf 
+par -w -intstyle ise -ol high -t 1 Game_Funct_map.ncd Game_Funct.ncd Game_Funct.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml Game_Funct.twx Game_Funct.ncd -o Game_Funct.twr Game_Funct.pcf -ucf ucfgame.ucf 
+bitgen -intstyle ise -f Game_Funct.ut Game_Funct.ncd 
+xst -intstyle ise -ifn "/home/student1/sshahwar/Desktop/Pong_Game_Coe758/Pong_Game/Game_Funct.xst" -ofn "/home/student1/sshahwar/Desktop/Pong_Game_Coe758/Pong_Game/Game_Funct.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc ucfgame.ucf -p xc3s500e-fg320-5 Game_Funct.ngc Game_Funct.ngd  
+map -intstyle ise -p xc3s500e-fg320-5 -cm area -ir off -pr off -c 100 -o Game_Funct_map.ncd Game_Funct.ngd Game_Funct.pcf 
+par -w -intstyle ise -ol high -t 1 Game_Funct_map.ncd Game_Funct.ncd Game_Funct.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml Game_Funct.twx Game_Funct.ncd -o Game_Funct.twr Game_Funct.pcf -ucf ucfgame.ucf 
+bitgen -intstyle ise -f Game_Funct.ut Game_Funct.ncd 
+xst -intstyle ise -ifn "/home/student1/sshahwar/Desktop/Pong_Game_Coe758/Pong_Game/Game_Funct.xst" -ofn "/home/student1/sshahwar/Desktop/Pong_Game_Coe758/Pong_Game/Game_Funct.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc ucfgame.ucf -p xc3s500e-fg320-5 Game_Funct.ngc Game_Funct.ngd  
+map -intstyle ise -p xc3s500e-fg320-5 -cm area -ir off -pr off -c 100 -o Game_Funct_map.ncd Game_Funct.ngd Game_Funct.pcf 
+par -w -intstyle ise -ol high -t 1 Game_Funct_map.ncd Game_Funct.ncd Game_Funct.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml Game_Funct.twx Game_Funct.ncd -o Game_Funct.twr Game_Funct.pcf -ucf ucfgame.ucf 
+bitgen -intstyle ise -f Game_Funct.ut Game_Funct.ncd 
+xst -intstyle ise -ifn "/home/student1/sshahwar/Desktop/Pong_Game_Coe758/Pong_Game/Game_Funct.xst" -ofn "/home/student1/sshahwar/Desktop/Pong_Game_Coe758/Pong_Game/Game_Funct.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc ucfgame.ucf -p xc3s500e-fg320-5 Game_Funct.ngc Game_Funct.ngd  
+map -intstyle ise -p xc3s500e-fg320-5 -cm area -ir off -pr off -c 100 -o Game_Funct_map.ncd Game_Funct.ngd Game_Funct.pcf 
+par -w -intstyle ise -ol high -t 1 Game_Funct_map.ncd Game_Funct.ncd Game_Funct.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml Game_Funct.twx Game_Funct.ncd -o Game_Funct.twr Game_Funct.pcf -ucf ucfgame.ucf 
+bitgen -intstyle ise -f Game_Funct.ut Game_Funct.ncd 
+xst -intstyle ise -ifn "/home/student1/sshahwar/Desktop/Pong_Game_Coe758/Pong_Game/Game_Funct.xst" -ofn "/home/student1/sshahwar/Desktop/Pong_Game_Coe758/Pong_Game/Game_Funct.syr" 
+xst -intstyle ise -ifn "/home/student1/sshahwar/Desktop/Pong_Game_Coe758/Pong_Game/Game_Funct.xst" -ofn "/home/student1/sshahwar/Desktop/Pong_Game_Coe758/Pong_Game/Game_Funct.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc ucfgame.ucf -p xc3s500e-fg320-5 Game_Funct.ngc Game_Funct.ngd  
+map -intstyle ise -p xc3s500e-fg320-5 -cm area -ir off -pr off -c 100 -o Game_Funct_map.ncd Game_Funct.ngd Game_Funct.pcf 
+par -w -intstyle ise -ol high -t 1 Game_Funct_map.ncd Game_Funct.ncd Game_Funct.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml Game_Funct.twx Game_Funct.ncd -o Game_Funct.twr Game_Funct.pcf -ucf ucfgame.ucf 
+bitgen -intstyle ise -f Game_Funct.ut Game_Funct.ncd 
+xst -intstyle ise -ifn "/home/student1/sshahwar/Desktop/Pong_Game_Coe758/Pong_Game/Game_Funct.xst" -ofn "/home/student1/sshahwar/Desktop/Pong_Game_Coe758/Pong_Game/Game_Funct.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc ucfgame.ucf -p xc3s500e-fg320-5 Game_Funct.ngc Game_Funct.ngd  
+map -intstyle ise -p xc3s500e-fg320-5 -cm area -ir off -pr off -c 100 -o Game_Funct_map.ncd Game_Funct.ngd Game_Funct.pcf 
+par -w -intstyle ise -ol high -t 1 Game_Funct_map.ncd Game_Funct.ncd Game_Funct.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml Game_Funct.twx Game_Funct.ncd -o Game_Funct.twr Game_Funct.pcf -ucf ucfgame.ucf 
+bitgen -intstyle ise -f Game_Funct.ut Game_Funct.ncd 

@@ -1,0 +1,5 @@
+set -tmpdir "/home/student1/sshahwar/Desktop/Pong_Game_Coe758/Pong_Game/xst/projnav.tmp"
+set -xsthdpdir "/home/student1/sshahwar/Desktop/Pong_Game_Coe758/Pong_Game/xst"
+elaborate
+-ifn Game.prj
+-ifmt mixed
